@@ -18,6 +18,7 @@ public class Test {
 		}
 		HelloBean hello = (HelloBean) context.getBean("helloBean");
 		System.out.println(hello.sayHello());
+		System.out.println(hello.sayHello());
 		
 	}
 
